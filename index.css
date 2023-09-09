@@ -128,7 +128,34 @@ body {
     .wslLogo, .nwslLogo, .fifaLogo {
         width: 20vw;
     }
-}
+  }
+
+  .futureContainer {
+  color: #24223e; 
+  padding-left: 30px;
+  }
+
+  .futureContainer h1 {
+  font-style: italic; 
+  width: 50vw;
+  white-space: nowrap;
+  }
+
+  .wrapElement {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  }
+
+  .iframeWrapped {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 75%;
+  border: 0;
+  }
+  
   .title {
     font-size: 80px;
     color: white;
@@ -144,31 +171,6 @@ body {
     padding-right: 20px;
   }
 
-.futureContainer {
-    color: #24223e; 
-    padding-left: 30px;
-}
-
-.futureContainer h1 {
-    font-style: italic; 
-    width: 50vw;
-    white-space: nowrap;
-}
-
-.wrapElement {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
-}
-
-.iframeWrapped {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 75%;
-  height: 75%;
-  border: 0;
-}
 
 footer {    
     bottom: 0;
