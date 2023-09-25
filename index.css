@@ -8,6 +8,10 @@ body {
     position: relative;
     max-width: 100%;
     overflow: hidden;
+    height: 38vh; 
+    background-image: url('USAFootballTeam.jpg'); 
+    background-size: cover;
+    background-position: center top;
   }
   
   .hero-image img {
@@ -125,8 +129,11 @@ body {
         margin-bottom: 20px; 
     }
 
-    .wslLogo, .nwslLogo, .fifaLogo {
-        width: 20vw;
+    .wslLogo,   .fifaLogo {
+        width: 30vw;
+    }
+    .nwslLogo {
+      width: 50vw;
     }
   }
 
