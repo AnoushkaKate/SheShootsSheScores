@@ -137,6 +137,11 @@ body {
     }
   }
 
+  .leaguesContainer {
+    text-align: center;
+    margin-top: 30px; 
+}
+
   .futureContainer {
   color: #24223e; 
   padding-left: 30px;
