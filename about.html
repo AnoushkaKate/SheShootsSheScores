@@ -7,7 +7,12 @@
         <title>About</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="WomensSuperLeague.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
 
@@ -24,18 +29,55 @@
       </div>
 
       <div class="firstVisual">
-        <img src="HomeIcon.png" class="homeIcon">
-        <h1 class="title">
-            Welcome to She Shoots, She Scores!
+        <h1 class="aboutTitle">
+          <b> Learn a bit about us! <b> </b><img src="ssssLogowithname.png" class="logoIcon">
           </h1>
           <br>
       </div>
-
-      <div class="logoVisual">
-        <img src="ssssLogowithname.png" class="logoIcon">
-          <br><br>      <br><br>       <br><br> <br><br> <br><br> <br><br> 
+      
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item" data-bs-interval="10000">
+            <img src="SpainW.jpeg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption">
+              <h2>Our Mission</h2>
+              <p>We're developing a women's football analysis website to promote the sport and tackle gender inequality in sports. 
+                Our aim is to make women's football more accessible and engaging.</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item" data-bs-interval="2000">
+            <img src="FootballFerns.jpeg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption ">
+              <h2>Who are we?</h2>
+              <p>The admins of this page are Kate and Anoushka. 
+                We’re two Kiwi girls who love football and are keen to see women's football getting the hype it deserves #upthefootballferns. </p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="Lionesses.jpeg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption ">
+              <h2>What's in our name?</h2>
+              <p>We chose the name “She shoots, she scores” inspired by the common sports phrase “He shoots, he scores”. 
+                This name resulted in the acronym "SSSS," which, in turn, influenced our choice of a snake as our mascot.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <script src="index.js" async defer></script>
     </body>
 </html>
